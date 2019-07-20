@@ -15,9 +15,9 @@ import {
 const initState = {
   smurfs: [],
   error: null,
-  fetchingSmurfs: false
+  fetchingSmurfs: false,
+  editing: false
 };
-
 /*
  Your initial/default state for this project could *Although does not have to* look a lot like this
  {
